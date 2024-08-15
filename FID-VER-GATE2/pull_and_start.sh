@@ -1,13 +1,14 @@
-# Sleep 5s
+# Sleep 10s to allow other startup processes to complete
 sleep 10s
 
 # Navigate to the directory containing the repository
 cd /home/fid/fid-startup
 
-# Pull the latest version of the repository
-git pull origin main
+# Reset the local repository to match the remote main branch, discarding any local changes
+git fetch origin
+git reset --hard origin/main
 
-# Sleep 5s
+# Sleep 5s to ensure the repository updates are fully applied
 sleep 5s
 
 # Execute the updated startup script
