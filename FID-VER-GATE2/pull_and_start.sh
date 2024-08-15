@@ -8,4 +8,4 @@ cd /home/fid/fid-startup
 git pull origin main
 
 # Execute the updated startup script
-bash /home/fid/fid-startup/FID-VER-GATE2/start_chrome.sh
+google-chrome --simulate-outdated-no-au='Tue, 31 Dec 2099 23:59:59 GMT' --kiosk https://fid.wagnerco.com.au/FID-Portrait.html --password-store=basic
