@@ -5,4 +5,4 @@ cd /path/to/repository
 git pull origin main
 
 # Execute the updated startup script
-bash /path/to/startup-script.sh
+bash /git/fid-startup/FID-HOR-CAFEE/startup-script.sh
