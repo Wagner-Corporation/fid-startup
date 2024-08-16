@@ -16,5 +16,9 @@ chmod +x /home/fid/fid-startup/FID-VER-GATE2/pull_and_start.sh
 # Sleep 5s to ensure the repository updates are fully applied
 sleep 5s
 
+# Clear Chrome cache
+rm -rf ~/.config/google-chrome/Default/Cache/*
+
+
 # Execute the updated startup script
 google-chrome --simulate-outdated-no-au='Tue, 31 Dec 2099 23:59:59 GMT' --kiosk https://fid.wagnerco.com.au/FID-Portrait.html --password-store=basic
