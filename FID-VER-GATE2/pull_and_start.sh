@@ -11,7 +11,7 @@ git fetch origin
 git reset --hard origin/main
 
 # Re-apply executable permissions to the script
-chmod +x /home/fid/fid-startup/pull_and_start.sh
+chmod +x /home/fid/fid-startup/FID-VER-GATE2/pull_and_start.sh
 
 # Sleep 5s to ensure the repository updates are fully applied
 sleep 5s
