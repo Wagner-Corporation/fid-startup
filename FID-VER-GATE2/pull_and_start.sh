@@ -16,6 +16,9 @@ chmod +x /home/fid/fid-startup/FID-VER-GATE2/pull_and_start.sh
 # Sleep 5s to ensure the repository updates are fully applied
 sleep 5s
 
+# Kill any existing Chrome processes
+pkill -f chrome
+
 # Clear Chrome cache
 rm -rf ~/.config/google-chrome/Default/Cache/*
 
