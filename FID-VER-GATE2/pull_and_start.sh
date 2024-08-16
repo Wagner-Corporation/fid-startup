@@ -23,4 +23,4 @@ pkill -f chrome
 rm -rf ~/.config/google-chrome/Default/Cache/*
 
 # Execute the updated startup script
-google-chrome --simulate-outdated-no-au='Tue, 31 Dec 2099 23:59:59 GMT' --kiosk https://google.com.au --password-store=basic
+google-chrome --simulate-outdated-no-au='Tue, 31 Dec 2099 23:59:59 GMT' --kiosk https://fid.wagnerco.com.au --password-store=basic
